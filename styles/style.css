@@ -66,12 +66,12 @@ strong {
     background: rgb(156, 211, 27);
     display: flexbox;
     margin-left: 46%;
-    border-top: 50px;
-    border-radius: 90px;
+    border-top: 3rem;
+    border-radius: 5.625rem;
     width: 11%;
     object-position: auto;
-    justify-content: right;
-    display: flex;
+    justify-content: auto;
+    display:-ms-inline-flexbox;
 
 }
 
@@ -239,6 +239,15 @@ strong {
 
 @media(max-width: 1087px){
 
+
+    .header__menu__link{
+        font-size: 2vh;
+    }
+
+    .logotipo-sin-letra{
+        width: 8vh;
+
+    }
 
     .parrafo1{
         font-size: 2vh;
